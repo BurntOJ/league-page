@@ -2,7 +2,7 @@
 export const leagueID = "1132093377996062720/"; // your league ID
 export const leagueName = "Frantasy Football"; // your league name
 export const dues = 100; // (optional) used in template constitution page
-export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
+export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
@@ -72,7 +72,7 @@ export const managers = [
     {
       "managerID" : "1132079667378421760",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "David",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "The Motherland", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -94,7 +94,7 @@ export const managers = [
     {
       "managerID" : "1132534553010319360",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Jan",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Your moms house", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -116,7 +116,7 @@ export const managers = [
     {
       "managerID" : "1132541777531191296",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Hector",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Unknown", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -138,7 +138,7 @@ export const managers = [
     {
       "managerID" : "1133058898669314048",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Mitch",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Storming the Capital", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -160,8 +160,8 @@ export const managers = [
     {
       "managerID" : "1133135873111040000",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Get_Rish_Quick",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "5 Star Resturant", // (optional)
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "The Wine Cellar", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
@@ -182,7 +182,7 @@ export const managers = [
     {
       "managerID" : "1133983655984291840",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Dan",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "The place formerly known as FedEx Field", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -204,7 +204,7 @@ export const managers = [
     {
       "managerID" : "1134154215708319744",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Jed",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Earth", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -226,7 +226,7 @@ export const managers = [
     {
       "managerID" : "1134583025607680000",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Manny",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "It's a Seacret", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
